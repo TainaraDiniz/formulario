@@ -1,0 +1,91 @@
+/* Estilizando o formulário */
+#logo{
+  display: flex;
+  justify-content: center;
+}
+.body {
+  font-family: Arial, sans-serif; 
+}
+
+
+h1 {
+  text-align: center; color: #1d1d1d;
+  image-orientation: flip;
+  
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold; color: 
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+input[type="text"], 
+input[type="email"],
+input[type="url"],
+input[type="password"],
+select { 
+  width: 250px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="checkbox"] {
+  vertical-align: middle;
+}
+
+input[type="submit"],
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #808080;
+  margin-left: 10px;
+}
+
+.input:required:invalid {
+
+  border: 2px solid rgb(255, 208, 208);
+}
+
+/* implementação futura 
+  input:valid {
+  border: 2px solid green;
+} */
+
+.login{
+  margin-bottom: 1rem;
+}
+
+.labelCadastro{
+  display: inline;
+}
+
+.checkOptions{
+  display: inline-table;
+  margin-top: 1rem;
+}
